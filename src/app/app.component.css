@@ -1,0 +1,36 @@
+.tv{
+  width: 450px;
+  height: 300px;
+  border:5px solid ;
+  background-color: #dad7d7;
+  position: relative;
+  margin: 80px auto 0;
+}
+.btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.tvON{
+  background-color: yellow;
+}
+.tvON .btn{
+  background-color: green;
+}
+
+.channel{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border: 1px solid;
+}
+.tv p{
+    color:red;
+    position: absolute;
+    margin: 10px;
+}
